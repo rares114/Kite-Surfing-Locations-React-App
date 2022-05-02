@@ -1,0 +1,230 @@
+.leaflet-container {
+  margin-top: 40px;
+  width: 100wh;
+  height: 68vh;
+}
+
+.leaflet-popup-content {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0;
+  padding: 0;
+  padding-top: 1px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.tableContainer {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  height: 32vh;
+  background-color: white;
+}
+.navbar {
+  top: 0;
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+}
+
+.tableTitle {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: arial;
+  margin-left: 5%;
+  margin-bottom: 0;
+}
+
+.kiteNavbar {
+  font-size: 25px;
+  margin-top: 1px;
+  margin-left: 105px;
+  font-style: italic;
+}
+
+.subs {
+  color: grey;
+  font-weight: bolder;
+}
+
+p {
+  font-weight: bold;
+}
+
+.searchbar {
+  margin-top: 0;
+  margin-left: 5%;
+}
+
+h3 {
+  margin-top: 0;
+  margin-left: 20px;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+.addFavBtn {
+  position: absolute;
+  margin: 0;
+  border: 0;
+  background-color: white;
+  width: 100%;
+  height: 30px;
+}
+
+.addFavBtn:hover {
+  background-color: orange;
+}
+
+.remFav {
+  visibility: hidden;
+  margin: 0;
+  border: 0;
+  background-color: white;
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+
+.remFav:hover {
+  background-color: red;
+}
+
+button {
+  font-weight: bold;
+}
+
+.table th {
+  padding: 3px;
+  background: rgb(201, 201, 201);
+  font-weight: bold;
+  text-align: left;
+}
+
+.table th.up {
+  background-image: url("./images/up_arrow.png");
+}
+.table th.down {
+  background-image: url("./images/down_arrow.png");
+}
+.table th.default {
+  background-image: url("./images/default.png");
+}
+
+th.up,
+th.default,
+th.down {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+tr:nth-child(even) {
+  background-color: rgb(231, 231, 231);
+}
+
+table {
+  padding: 0;
+  margin-left: 10%;
+  width: 80%;
+  border-spacing: 0;
+}
+h1 {
+  margin-left: 10%;
+}
+
+.searchbar {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: none;
+  background-color: rgb(230, 230, 230);
+  margin-left: 10%;
+}
+
+.filterBtn {
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  color: rgb(10, 157, 255);
+  background-color: white;
+  font-size: 12px;
+  text-align: right;
+  padding-top: 2px;
+  padding-right: 18px;
+  background-image: url("./images/filter.png");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 13%;
+  width: 110px;
+  height: 30px;
+  margin: 0;
+  margin-top: -775px;
+  margin-left: 83%;
+  position: absolute;
+  z-index: 450;
+  box-shadow: 0 2.5px 2.5px grey;
+}
+
+.filterMenu {
+  visibility: hidden;
+  position: absolute;
+  margin-left: 77%;
+  width: 200px;
+  height: 250px;
+  margin-top: -775px;
+  background-color: white;
+  z-index: 450;
+  box-shadow: 0 3px 3px grey;
+}
+
+.x-menu {
+  background-color: white;
+  position: absolute;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  margin-left: 180px;
+  cursor: pointer;
+  border: 0;
+}
+
+.inputFilter {
+  border: none;
+  border-bottom: 2px solid rgb(230, 230, 230);
+  width: 150px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.inputFilter:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(10, 157, 255);
+}
+
+.filterP {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.applyFilter {
+  background-color: white;
+  box-shadow: 0 2.5px 2.5px grey;
+  border: none;
+  width: 110px;
+  height: 30px;
+  margin-left: 45px;
+  margin-top: 30px;
+  cursor: pointer;
+}
